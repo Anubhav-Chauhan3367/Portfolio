@@ -1,0 +1,23 @@
+.parent-component {
+	position: relative; /* Set the parent component as a reference for absolute positioning */
+}
+
+.hover-card {
+	position: absolute;
+	top: 100%; /* Position the card below the parent component */
+	left: 50%; /* Center the card horizontally within the parent component */
+	transform: translateX(-50%); /* Adjust to horizontally center the card */
+	background-color: purple-black;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+	display: none;
+	white-space: nowrap; /* Display content in a single line */
+	overflow: hidden; /* Hide overflowing content */
+	text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
+}
+
+.parent-component:hover .hover-card {
+	display: block;
+}
