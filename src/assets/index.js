@@ -28,6 +28,7 @@ import owncast from "./owncast.png";
 import mern from "./mern.png";
 import ps from "./ps.png";
 import sde from "./sde.png";
+import nextjs from "./nextjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +38,7 @@ import tesla from "./company/tesla.png";
 import fm from "./fm.png";
 import summazon from "./summazon.png";
 import vs from "./visitSite.png";
+import artifize from "./artifize.png";
 
 export {
 	logo,
@@ -75,4 +77,6 @@ export {
 	sql,
 	sprout,
 	owncast,
+	nextjs,
+	artifize,
 };
