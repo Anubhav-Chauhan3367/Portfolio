@@ -281,7 +281,7 @@ const projects = [
 		source_code_link:
 			"https://github.com/Anubhav-Chauhan3367/Fitness-Mavericks",
 		visit_link:
-			"https://fitness-mavericks-anubhavchauhan3367-gmailcom.vercel.app/.",
+			"https://fitness-mavericks-49pc-4b4pqy3p7.vercel.app/",
 	},
 ];
 
